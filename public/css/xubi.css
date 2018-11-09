@@ -1,0 +1,25 @@
+.landing_background {
+    background-image: url("../img/landing_page_background.png");
+}
+
+.how_to_background {
+    background-image: url("../img/how_to.png");
+}
+
+.features_background {
+    background-image: url("../img/features_background.png");
+}
+.table{
+    width: 80% !important;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.td_custom{
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #fff !important;
+}
+.height{
+    margin-top: 70px;
+}

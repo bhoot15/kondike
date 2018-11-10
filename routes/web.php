@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//Middleware Added
 Route::group(['middleware'=>['web']],function (){
     Route::get('/', 'HomeController@index')->name('home');
     Route::get('/admin-panel','HomeController@showAdminPanel');

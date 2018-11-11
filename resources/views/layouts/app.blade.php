@@ -14,10 +14,64 @@
     <link href="css/xubi.css" rel="stylesheet" type="text/css" media="all"/>
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600'
           rel='stylesheet' type='text/css'>
+    <script>
+        $("[data-menu-underline-from-center] a").addClass("underline-from-center");
+    </script>
 </head>
 <body class="scroll-assist">
 
 <!--nav will come here-->
+<!-- Navigation -->
+<nav class="absolute transparent hover-underline-menu" data-menu-underline-from-center>
+    <div class="nav-bar">
+        <div class="module left">
+            <a href="index.html">
+                <img class="logo logo-light" alt="Foundry" src="img/logo-brand.png"/>
+                <img class="logo logo-dark" alt="Foundry" src="img/logo-brand.png"/>
+            </a>
+        </div>
+        <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+            <i class="ti-menu"></i>
+        </div>
+        <div class="module-group right">
+            <div class="module left">
+                <ul class="menu">
+                    <li class="has-dropdown">
+                        <a href="#" class="h2ColorBlack">
+                            Home
+                        </a>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#" class="h2ColorBlack">
+                            HOW TO USE
+                        </a>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#" class="h2ColorBlack">
+                            FEATURES
+                        </a>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#" class="h2ColorBlack">
+                            HOW TO USE
+                        </a>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#" class="h2ColorBlack">
+                            CATEGORIES
+                        </a>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#" class="h2ColorBlack">
+                            CONTACT US
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--end of module group-->
+    </div>
+</nav>
 
 @yield('content')
 
@@ -38,7 +92,8 @@
                     <div class="twitter-feed">
                         <p class="h2ColorBlack"><i class="ti-mobile"></i> +8801xxxxxxxxx</p>
                         <p class="h2ColorBlack"><i class="ti-email"></i> email@kondike.com</p>
-                        <p class="h2ColorBlack"><i class="ti-location-pin"></i> 62 Zigatola, Dhanmondi<br>Dhaka, Bangladesh</p>
+                        <p class="h2ColorBlack"><i class="ti-location-pin"></i> 62 Zigatola, Dhanmondi<br>Dhaka,
+                            Bangladesh</p>
                         <p class="h2ColorBlack"><i class="ti-mobile"></i> m.me/kondikeapp</p>
                         <p class="h2ColorBlack"><i class="ti-facebook"></i> facebook.com/kondikeapp</p>
                         <p class="h2ColorBlack"><i class="ti-instagram"></i> @kondikeapp</p>

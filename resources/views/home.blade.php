@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="main-container">
-    <section class="cover pt240 pb240 pt-xs-120 pb-xs-80 image-bg">
+    <section class="cover pt240 pb240 pt-xs-120 pb-xs-80 image-bg" id="about">
         <div class="background-image-holder">
             <img alt="image" class="background-image" src="img/landing_page_background.png"/>
         </div>

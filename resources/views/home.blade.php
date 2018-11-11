@@ -16,7 +16,7 @@
                 <div class="height"></div>
                 <div class="row mb24 mb-xs-0">
                     <div class="col-sm-10 col-sm-offset-1 text-center">
-                        <h2 class="large uppercase">Yellow Pages<br>with direction</h2>
+                        <h2 class="large uppercase h2Color">Yellow Pages<br>with direction</h2>
                     </div>
                 </div>
                 <div class="row mb24 mb-xs-0">
@@ -54,7 +54,7 @@
                 <div class="col-md-1"></div>
                 <div class="col-md-7">
                     <div class="row">
-                        <h2 class="uppercase">How to use</h2>
+                        <h2 class="uppercase h2Color">How to use</h2>
                         <h5 class="uppercase">1. Install and open app</h5>
                         <h5 class="uppercase">2. Search for your desired entity or location</h5>
                         <h5 class="uppercase">3. select to view more details</h5>
@@ -76,7 +76,7 @@
             <div class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-6">
-                    <h2 class="uppercase">
+                    <h2 class="uppercase h2Color">
                         Features
                     </h2>
 
@@ -133,95 +133,72 @@
             </div>
             <!--end of container-->
     </section>
-
-    <footer class="footer-1 bg-dark">
+    <section class="bg-secondary image-bg">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <img alt="Logo" class="logo" src="img/logo-light.png"/>
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <h2 class="uppercase h2Color">
+                        Categories
+                    </h2>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h6 class="title">Recent Posts</h6>
-                        <hr>
-                        <ul class="link-list recent-posts">
-                            <li>
-                                <a href="#">Hugging pugs is super trendy</a>
-                                <span class="date">February
-                                            <span class="number">14, 2015</span>
-                                        </span>
-                            </li>
-                            <li>
-                                <a href="#">Spinning vinyl is oh so cool</a>
-                                <span class="date">February
-                                            <span class="number">9, 2015</span>
-                                        </span>
-                            </li>
-                            <li>
-                                <a href="#">Superior theme design by pros</a>
-                                <span class="date">January
-                                            <span class="number">27, 2015</span>
-                                        </span>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--end of widget-->
+                <div class="col-md-4"></div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-2">
+                    <img alt="Product" class="product-thumb" src="img/map.png" height="100" width="100"/>
+                    <h6 class="uppercase h2ColorBlack">Money</h6>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h6 class="title">Latest Updates</h6>
-                        <hr>
-                        <div class="twitter-feed">
-                            <div class="tweets-feed" data-feed-name="mrareweb">
-                            </div>
-                        </div>
-                    </div>
-                    <!--end of widget-->
+                <div class="col-md-2">
+                    <img alt="Product" class="product-thumb" src="img/map.png" height="100" width="100"/>
+                    <h6 class="uppercase h2ColorBlack">Hardware<br>Store</h6>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h6 class="title">Instagram</h6>
-                        <hr>
-                        <div class="instafeed" data-user-name="mrareweb">
-                            <ul></ul>
-                        </div>
-                    </div>
-                    <!--end of widget-->
+                <div class="col-md-2">
+                    <img alt="Product" class="product-thumb" src="img/map.png" height="100" width="100"/>
+                    <h6 class="uppercase h2ColorBlack">Entertainment</h6>
+                </div>
+                <div class="col-md-2">
+                    <img alt="Product" class="product-thumb" src="img/map.png" height="100" width="100"/>
+                    <h6 class="uppercase h2ColorBlack">Education</h6>
+                </div>
+                <div class="col-md-2">
+                    <img alt="Product" class="product-thumb" src="img/map.png" height="100" width="100"/>
+                    <h6 class="uppercase h2ColorBlack">Shopping<br>Malls</h6>
+                </div>
+                <div class="col-md-2">
+                    <img alt="Product" class="product-thumb" src="img/map.png" height="100" width="100"/>
+                    <h6 class="uppercase h2ColorBlack">Grooming</h6>
                 </div>
             </div>
-            <!--end of row-->
-            <div class="row">
-                <div class="col-sm-6">
-                    <span class="sub">&copy; Copyright 2016 - Medium Rare</span>
+            <div class="height-70"></div>
+            <div class="row text-center">
+                <div class="col-md-2">
+                    <img alt="Product" class="product-thumb" src="img/map.png" height="100" width="100"/>
+                    <h6 class="uppercase h2ColorBlack">Healthcare</h6>
                 </div>
-                <div class="col-sm-6 text-right">
-                    <ul class="list-inline social-list">
-                        <li>
-                            <a href="#">
-                                <i class="ti-twitter-alt"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="ti-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="ti-dribbble"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="ti-vimeo-alt"></i>
-                            </a>
-                        </li>
-                    </ul>
+                <div class="col-md-2">
+                    <img alt="Product" class="product-thumb" src="img/map.png" height="100" width="100"/>
+                    <h6 class="uppercase h2ColorBlack">Sports</h6>
+                </div>
+                <div class="col-md-2">
+                    <img alt="Product" class="product-thumb" src="img/map.png" height="100" width="100"/>
+                    <h6 class="uppercase h2ColorBlack">Big-Brands</h6>
+                </div>
+                <div class="col-md-2">
+                    <img alt="Product" class="product-thumb" src="img/map.png" height="100" width="100"/>
+                    <h6 class="uppercase h2ColorBlack">Food</h6>
+                </div>
+                <div class="col-md-2">
+                    <img alt="Product" class="product-thumb" src="img/map.png" height="100" width="100"/>
+                    <h6 class="uppercase h2ColorBlack">Utilities</h6>
+                </div>
+                <div class="col-md-2">
+                    <img alt="Product" class="product-thumb" src="img/map.png" height="100" width="100"/>
+                    <h6 class="uppercase h2ColorBlack">Rent</h6>
                 </div>
             </div>
         </div>
-        <!--end of container-->
-        <a class="btn btn-sm fade-half back-to-top inner-link" href="#top">Top</a>
-    </footer>
+    </section>
 </div>
 @endsection

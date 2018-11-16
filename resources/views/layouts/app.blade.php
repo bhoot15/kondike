@@ -16,9 +16,11 @@
           rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
           integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    {{--<script>
+    {{--
+    <script>
         $("[data-menu-underline-from-center] a").addClass("underline-from-center");
-    </script>--}}
+    </script>
+    --}}
 </head>
 <body class="">
 
@@ -59,6 +61,78 @@
                             </li>
                             <li class="has-dropdown underline-from-center">
                                 <a href="#" class="h2ColorBlack">
+                                    BROWSE
+                                </a>
+                                <ul class="mega-menu">
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="title"></span>
+                                            </li>
+                                            <li>
+                                                <a href="/" class="h2ColorWhite">About Us 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="/" class="h2ColorWhite">About Us 2</a>
+                                            </li>
+                                            <li>
+                                                <a href="/" class="h2ColorWhite">About Us 3</a>
+                                            </li>
+                                            <li>
+                                                <a href="/" class="h2ColorWhite">Services 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="/" class="h2ColorWhite">Services 2</a>
+                                            </li>
+                                            <li>
+                                                <a href="/" class="h2ColorWhite">Services 3</a>
+                                            </li>
+                                            <li>
+                                                <a href="/" class="h2ColorWhite">Contact 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="/" class="h2ColorWhite">Contact 2</a>
+                                            </li>
+                                            <li>
+                                                <a href="/" class="h2ColorWhite">Planner</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="title"></span>
+                                            </li>
+                                            <li>
+                                                <a href="/" class="h2ColorWhite">Login</a>
+                                            </li>
+                                            <li>
+                                                <a href="/" class="h2ColorWhite">Register</a>
+                                            </li>
+                                            <li>
+                                                <a href="/" class="h2ColorWhite">Coming Soon</a>
+                                            </li>
+                                            <li>
+                                                <a href="/" class="h2ColorWhite">FAQ</a>
+                                            </li>
+                                            <li>
+                                                <a href="/" class="h2ColorWhite">Confirmation</a>
+                                            </li>
+                                            <li>
+                                                <a href="/" class="h2ColorWhite">Countdown</a>
+                                            </li>
+                                            <li>
+                                                <a href="/" class="h2ColorWhite">Countdown 2</a>
+                                            </li>
+                                            <li>
+                                                <a href="/" class="h2ColorWhite">404 - Error</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown underline-from-center">
+                                <a href="#" class="h2ColorBlack">
                                     HOW TO USE
                                 </a>
                             </li>
@@ -84,42 +158,50 @@
     </div>
     <div class="row">
         <footer style="background-color: #f4f4f4; padding: 0;" class="footer-1 bg-light">
-        {{--<div class="container">--}}
-        {{--<div class="row">--}}
-        <!--<div class="col-md-3 col-sm-6">
-                            <img alt="Logo" class="logo" src="img/logo.png"/>
-                        </div>-->
-            <div class="col-md-6 col-sm-6">
-                <div class="widget">
-                    <h2 class="uppercase large h2Color text-center"><br><br><br><br><br>Contact us</h2>
+            {{--
+            <div class="container">--}}
+                {{--
+                <div class="row">--}}
+                    <!--<div class="col-md-3 col-sm-6">
+                                        <img alt="Logo" class="logo" src="img/logo.png"/>
+                                    </div>-->
+                    <div class="col-md-6 col-sm-6">
+                        <div class="widget">
+                            <h2 class="uppercase large h2Color text-center"><br><br><br><br><br>Contact us</h2>
+                        </div>
+                        <!--end of widget-->
+                    </div>
+                    <div style="background-color: white; margin-top: 0;" class="col-md-6 col-sm-6">
+                        <div class="widget" style="padding: 96px;">
+                            <div class="twitter-feed">
+                                <p class="h2ColorBlack"><i class="fas fa-phone text-success"></i>+8801xxxxxxxxx</p>
+                                <p class="h2ColorBlack"><i class="fas fa-envelope text-danger"></i> email@kondike.com
+                                </p>
+                                <p class="h2ColorBlack"><i class="fas fa-map-marked-alt"></i> 62 Zigatola, Dhanmondi<br>Dhaka,
+                                    Bangladesh</p>
+                                <p class="h2ColorBlack"><i class="fas fa-mobile-alt"></i> m.me/kondikeapp</p>
+                                <p class="h2ColorBlack"><i class="fab fa-facebook-square text-info"></i>facebook.com/kondikeapp
+                                </p>
+                                <p class="h2ColorBlack"><i class="fab fa-instagram text-warning"></i> @kondikeapp</p>
+                            </div>
+                        </div>
+                        <!--end of widget-->
+                    </div>
+
+                    {{--
                 </div>
-                <!--end of widget-->
-            </div>
-            <div style="background-color: white; margin-top: 0;" class="col-md-6 col-sm-6">
-                <div class="widget" style="padding: 96px;">
-                    <div class="twitter-feed">
-                        <p class="h2ColorBlack"><i class="fas fa-phone text-success"></i>+8801xxxxxxxxx</p>
-                        <p class="h2ColorBlack"><i class="fas fa-envelope text-danger"></i> email@kondike.com</p>
-                        <p class="h2ColorBlack"><i class="fas fa-map-marked-alt"></i> 62 Zigatola, Dhanmondi<br>Dhaka,
-                            Bangladesh</p>
-                        <p class="h2ColorBlack"><i class="fas fa-mobile-alt"></i> m.me/kondikeapp</p>
-                        <p class="h2ColorBlack"><i class="fab fa-facebook-square text-info"></i>facebook.com/kondikeapp
-                        </p>
-                        <p class="h2ColorBlack"><i class="fab fa-instagram text-warning"></i> @kondikeapp</p>
+                --}}
+                <!--end of row-->
+                <div class="row text-center">
+                    <div class="col-sm-12" style="background-color: #1b1e21; color: white;">
+                        <span class="sub"><img src="favicon.ico" height="15"
+                                               width="15"> Copyright &copy; <?php echo date("Y") ?> - All Rights Reserved</span>
                     </div>
                 </div>
-                <!--end of widget-->
+                {{--
             </div>
-
-        {{--</div>--}}
-        <!--end of row-->
-            <div class="row text-center">
-                <div class="col-sm-12" style="background-color: #1b1e21; color: white;">
-                <span class="sub"><img src="favicon.ico" height="15" width="15"> Copyright &copy; <?php echo date("Y") ?> - All Rights Reserved</span>
-                </div>
-            </div>
-        {{--</div>--}}
-        <!--end of container-->
+            --}}
+            <!--end of container-->
             <!--<a class="btn btn-sm fade-half back-to-top inner-link" href="#top">Top</a>-->
         </footer>
     </div>

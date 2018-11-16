@@ -29,6 +29,9 @@
 .h2ColorBlack{
     color: #000 !important;
 }
+.h2ColorWhite{
+    color: #fff !important;
+}
 
 header {
     padding: 154px 0 100px;

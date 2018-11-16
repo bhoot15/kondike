@@ -14,119 +14,128 @@
     <link href="css/xubi.css" rel="stylesheet" type="text/css" media="all"/>
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600'
           rel='stylesheet' type='text/css'>
-    <script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    {{--<script>
         $("[data-menu-underline-from-center] a").addClass("underline-from-center");
-    </script>
+    </script>--}}
 </head>
-<body class="scroll-assist">
+<body class="">
 
 <!--nav will come here-->
 <!-- Navigation -->
-<nav class="absolute transparent hover-underline-menu" data-menu-underline-from-center>
-    <div class="nav-bar">
-        <div class="module left">
-            <a href="index.html">
-                <img class="logo logo-light" alt="Foundry" src="img/logo-brand.png"/>
-                <img class="logo logo-dark" alt="Foundry" src="img/logo-brand.png"/>
-            </a>
-        </div>
-        <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
-            <i class="ti-menu"></i>
-        </div>
-        <div class="module-group right">
-            <div class="module left">
-                <ul class="menu">
-                    <li class="has-dropdown">
-                        <a href="#" class="h2ColorBlack">
-                            Home
-                        </a>
-                    </li>
-                    <li class="has-dropdown">
-                        <a href="#" class="h2ColorBlack">
-                            HOW TO USE
-                        </a>
-                    </li>
-                    <li class="has-dropdown">
-                        <a href="#" class="h2ColorBlack">
-                            FEATURES
-                        </a>
-                    </li>
-                    <li class="has-dropdown">
-                        <a href="#" class="h2ColorBlack">
-                            HOW TO USE
-                        </a>
-                    </li>
-                    <li class="has-dropdown">
-                        <a href="#" class="h2ColorBlack">
-                            CATEGORIES
-                        </a>
-                    </li>
-                    <li class="has-dropdown">
-                        <a href="#" class="h2ColorBlack">
-                            CONTACT US
-                        </a>
-                    </li>
-                </ul>
+
+
+<div class="col-12">
+    <div class="row">
+        <nav class="absolute transparent hover-underline-menu" data-menu-underline-from-center>
+            <div class="nav-bar">
+                <div class="module left" style="margin-top: 10px;margin-left: 20px;">
+                    <a href="index.html">
+                        <img class="logo logo-light" alt="Foundry" src="img/logo-brand.png"/>
+                        <img class="logo logo-dark" alt="Foundry" src="img/logo-brand.png"/>
+                    </a>
+                </div>
+                <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+                    <i class="ti-menu"></i>
+                </div>
+                <div class="module-group right">
+                    <div class="module left">
+                        <ul class="menu">
+                            <li class="has-dropdown underline-from-center">
+                                <a href="#" class="h2ColorBlack">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="has-dropdown underline-from-center">
+                                <a href="#" class="h2ColorBlack">
+                                    HOW TO USE
+                                </a>
+                            </li>
+                            <li class="has-dropdown underline-from-center">
+                                <a href="#" class="h2ColorBlack">
+                                    FEATURES
+                                </a>
+                            </li>
+                            <li class="has-dropdown underline-from-center">
+                                <a href="#" class="h2ColorBlack">
+                                    HOW TO USE
+                                </a>
+                            </li>
+                            <li class="has-dropdown underline-from-center">
+                                <a href="#" class="h2ColorBlack">
+                                    CATEGORIES
+                                </a>
+                            </li>
+                            <li class="has-dropdown underline-from-center">
+                                <a href="#" class="h2ColorBlack">
+                                    CONTACT US
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--end of module group-->
             </div>
-        </div>
-        <!--end of module group-->
+        </nav>
     </div>
-</nav>
-
-@yield('content')
-
-<footer class="footer-1 bg-light">
-    <div class="container">
-        <div class="row">
-            <!--<div class="col-md-3 col-sm-6">
-                <img alt="Logo" class="logo" src="img/logo.png"/>
-            </div>-->
-            <div class="col-md-6 col-sm-6 text-center">
+    <div class="row">
+        @yield('content')
+    </div>
+    <div class="row">
+        <footer style="background-color: #f4f4f4; padding: 0;" class="footer-1 bg-light">
+        {{--<div class="container">--}}
+        {{--<div class="row">--}}
+        <!--<div class="col-md-3 col-sm-6">
+                            <img alt="Logo" class="logo" src="img/logo.png"/>
+                        </div>-->
+            <div class="col-md-6 col-sm-6">
                 <div class="widget">
-                    <h2 class="uppercase large h2Color"><br><br>Contact us</h2>
+                    <h2 class="uppercase large h2Color text-center"><br><br><br><br><br>Contact us</h2>
                 </div>
                 <!--end of widget-->
             </div>
-            <div class="col-md-6 col-sm-6">
-                <div class="widget">
+            <div style="background-color: white; margin-top: 0;" class="col-md-6 col-sm-6">
+                <div class="widget" style="padding: 96px;">
                     <div class="twitter-feed">
-                        <p class="h2ColorBlack"><i class="ti-mobile"></i> +8801xxxxxxxxx</p>
-                        <p class="h2ColorBlack"><i class="ti-email"></i> email@kondike.com</p>
-                        <p class="h2ColorBlack"><i class="ti-location-pin"></i> 62 Zigatola, Dhanmondi<br>Dhaka,
+                        <p class="h2ColorBlack"><i class="fas fa-phone text-success"></i>+8801xxxxxxxxx</p>
+                        <p class="h2ColorBlack"><i class="fas fa-envelope text-danger"></i> email@kondike.com</p>
+                        <p class="h2ColorBlack"><i class="fas fa-map-marked-alt"></i> 62 Zigatola, Dhanmondi<br>Dhaka,
                             Bangladesh</p>
-                        <p class="h2ColorBlack"><i class="ti-mobile"></i> m.me/kondikeapp</p>
-                        <p class="h2ColorBlack"><i class="ti-facebook"></i> facebook.com/kondikeapp</p>
-                        <p class="h2ColorBlack"><i class="ti-instagram"></i> @kondikeapp</p>
+                        <p class="h2ColorBlack"><i class="fas fa-mobile-alt"></i> m.me/kondikeapp</p>
+                        <p class="h2ColorBlack"><i class="fab fa-facebook-square text-info"></i>facebook.com/kondikeapp
+                        </p>
+                        <p class="h2ColorBlack"><i class="fab fa-instagram text-warning"></i> @kondikeapp</p>
                     </div>
                 </div>
                 <!--end of widget-->
             </div>
 
-        </div>
+        {{--</div>--}}
         <!--end of row-->
-        <div class="row text-center">
-            <div class="col-sm-12">
-                <span class="sub"><img src="favicon.ico" height="15"
-                                       width="15"> Copyright &copy; <?php echo date("Y") ?> - All Rights Reserved</span>
+            <div class="row text-center">
+                <div class="col-sm-12" style="background-color: #1b1e21; color: white;">
+                <span class="sub"><img src="favicon.ico" height="15" width="15"> Copyright &copy; <?php echo date("Y") ?> - All Rights Reserved</span>
+                </div>
             </div>
-        </div>
+        {{--</div>--}}
+        <!--end of container-->
+            <!--<a class="btn btn-sm fade-half back-to-top inner-link" href="#top">Top</a>-->
+        </footer>
     </div>
-    <!--end of container-->
-    <!--<a class="btn btn-sm fade-half back-to-top inner-link" href="#top">Top</a>-->
-</footer>
+</div>
 
-<script src="js/jquery.min.js"></script>
+
+<script src="../js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/flickr.js"></script>
 <script src="js/flexslider.min.js"></script>
 <script src="js/lightbox.min.js"></script>
 <script src="js/masonry.min.js"></script>
-<script src="js/twitterfetcher.min.js"></script>
 <script src="js/spectragram.min.js"></script>
 <script src="js/ytplayer.min.js"></script>
 <script src="js/countdown.min.js"></script>
 <script src="js/smooth-scroll.min.js"></script>
-<script src="js/parallax.js"></script>
 <script src="js/scripts.js"></script>
 </body>
 </html>

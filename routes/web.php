@@ -14,6 +14,9 @@
 Route::group(['middleware'=>['web']],function (){
     Route::get('/', 'HomeController@index')->name('home');
     Route::get('/admin-panel','HomeController@showAdminPanel');
+    Route::get('admin-manage-business','HomeController@showManageBsns');
+    Route::get('browse','HomeController@browseCategories');
+    Route::get('/shop','HomeController@showShopLayout');
 });
 
 //Auth::routes();

@@ -27,6 +27,18 @@ class HomeController extends Controller
     }
 
     public function showAdminPanel(){
-        return view('admin.admin-panel');
+        return view('admin.add_new_bsns');
+    }
+
+    public function showManageBsns(){
+        return view('admin.show_manage_bsns');
+    }
+
+    public function browseCategories(){
+        return view('browse');
+    }
+
+    public function showShopLayout(){
+        return view('shop');
     }
 }

@@ -31,7 +31,7 @@
 
 <div class="col-12">
     <div class="row">
-        <nav class="absolute transparent hover-underline-menu" data-menu-underline-from-center>
+        <nav class="absolute transparent hover-underline-menu fixed-top" data-menu-underline-from-center>
             <div class="nav-bar">
                 <div class="module left" style="margin-top: 10px;margin-left: 20px;">
                     <a href="index.html">
@@ -61,7 +61,7 @@
                                 </a>
                             </li>
                             <li class="has-dropdown underline-from-center">
-                                <a href="#" class="h2ColorBlack">
+                                <a href="browse" class="h2ColorBlack">
                                     BROWSE
                                 </a>
                                 <ul class="mega-menu">
@@ -159,51 +159,41 @@
     </div>
     <div class="row">
         <footer style="background-color: #f4f4f4; padding: 0;" class="footer-1 bg-light">
-            {{--
-            <div class="container">--}}
-                {{--
-                <div class="row">--}}
-                    <!--<div class="col-md-3 col-sm-6">
-                                        <img alt="Logo" class="logo" src="img/logo.png"/>
-                                    </div>-->
-                    <div class="col-md-6 col-sm-6">
-                        <div class="widget">
-                            <h2 class="uppercase large h2Color text-center"><br><br><br><br><br>Contact us</h2>
-                        </div>
-                        <!--end of widget-->
-                    </div>
-                    <div style="background-color: white; margin-top: 0;" class="col-md-6 col-sm-6">
-                        <div class="widget" style="padding: 96px;">
-                            <div class="twitter-feed">
-                                <p class="h2ColorBlack"><i class="fas fa-phone text-success"></i>+8801xxxxxxxxx</p>
-                                <p class="h2ColorBlack"><i class="fas fa-envelope text-danger"></i> email@kondike.com
-                                </p>
-                                <p class="h2ColorBlack"><i class="fas fa-map-marked-alt"></i> 62 Zigatola, Dhanmondi<br>Dhaka,
-                                    Bangladesh</p>
-                                <p class="h2ColorBlack"><i class="fas fa-mobile-alt"></i> m.me/kondikeapp</p>
-                                <p class="h2ColorBlack"><i class="fab fa-facebook-square text-info"></i>facebook.com/kondikeapp
-                                </p>
-                                <p class="h2ColorBlack"><i class="fab fa-instagram text-warning"></i> @kondikeapp</p>
-                            </div>
-                        </div>
-                        <!--end of widget-->
-                    </div>
 
-                    {{--
+            @if(Request::is('/'))
+            <div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="widget">
+                        <h2 class="uppercase large h2Color text-center"><br><br><br><br><br>Contact us</h2>
+                    </div>
+                    <!--end of widget-->
                 </div>
-                --}}
-                <!--end of row-->
-                <div class="row text-center">
-                    <div class="col-sm-12" style="background-color: #1b1e21; color: white;">
+                <div style="background-color: white; margin-top: 0;" class="col-md-6 col-sm-6">
+                    <div class="widget" style="padding: 96px;">
+                        <div class="twitter-feed">
+                            <p class="h2ColorBlack"><i class="fas fa-phone text-success"></i>+8801xxxxxxxxx</p>
+                            <p class="h2ColorBlack"><i class="fas fa-envelope text-danger"></i> email@kondike.com
+                            </p>
+                            <p class="h2ColorBlack"><i class="fas fa-map-marked-alt"></i> 62 Zigatola, Dhanmondi<br>Dhaka,
+                                Bangladesh</p>
+                            <p class="h2ColorBlack"><i class="fas fa-mobile-alt"></i> m.me/kondikeapp</p>
+                            <p class="h2ColorBlack"><i class="fab fa-facebook-square text-info"></i>facebook.com/kondikeapp
+                            </p>
+                            <p class="h2ColorBlack"><i class="fab fa-instagram text-warning"></i> @kondikeapp</p>
+                        </div>
+                    </div>
+                    <!--end of widget-->
+                </div>
+            </div>
+            @endif
+
+            <div class="row text-center">
+                <div class="col-sm-12" style="background-color: #1b1e21; color: white;">
                         <span class="sub"><img src="favicon.ico" height="15"
                                                width="15"> Copyright &copy; <?php echo date("Y") ?> - All Rights Reserved</span>
-                    </div>
                 </div>
-                {{--
             </div>
-            --}}
-            <!--end of container-->
-            <!--<a class="btn btn-sm fade-half back-to-top inner-link" href="#top">Top</a>-->
+
         </footer>
     </div>
 </div>
@@ -220,5 +210,6 @@
 <script src="js/countdown.min.js"></script>
 <script src="js/smooth-scroll.min.js"></script>
 <script src="js/scripts.js"></script>
+
 </body>
 </html>

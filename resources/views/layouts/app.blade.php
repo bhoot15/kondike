@@ -30,11 +30,11 @@
 
 
 <div class="col-12">
-    <div class="row">
+    <div class="row navbar navbar-default navbar-fixed-top">
         <nav class="absolute transparent hover-underline-menu fixed-top" data-menu-underline-from-center>
             <div class="nav-bar">
                 <div class="module left" style="margin-top: 10px;margin-left: 20px;">
-                    <a href="index.html">
+                    <a href="/">
                         <img class="logo logo-light" alt="Foundry" src="img/logo-brand.png"/>
                         <img class="logo logo-dark" alt="Foundry" src="img/logo-brand.png"/>
                     </a>
@@ -46,17 +46,17 @@
                     <div class="module left">
                         <ul class="menu">
                             <li class="has-dropdown underline-from-center">
-                                <a href="#" class="h2ColorBlack">
+                                <a href="#home" class="h2ColorBlack">
                                     Home
                                 </a>
                             </li>
                             <li class="has-dropdown underline-from-center">
-                                <a href="#" class="h2ColorBlack">
+                                <a href="#tutorial" class="h2ColorBlack">
                                     HOW TO USE
                                 </a>
                             </li>
                             <li class="has-dropdown underline-from-center">
-                                <a href="#" class="h2ColorBlack">
+                                <a href="#features" class="h2ColorBlack">
                                     FEATURES
                                 </a>
                             </li>
@@ -71,79 +71,73 @@
                                                 <span class="title"></span>
                                             </li>
                                             <li>
-                                                <a href="/" class="h2ColorWhite">About Us 1</a>
+                                                <a href="/" class="h2ColorWhite">Money</a>
                                             </li>
                                             <li>
-                                                <a href="/" class="h2ColorWhite">About Us 2</a>
+                                                <a href="/" class="h2ColorWhite">Hardware Store</a>
                                             </li>
                                             <li>
-                                                <a href="/" class="h2ColorWhite">About Us 3</a>
+                                                <a href="/" class="h2ColorWhite">Entertainment</a>
                                             </li>
                                             <li>
-                                                <a href="/" class="h2ColorWhite">Services 1</a>
+                                                <a href="/" class="h2ColorWhite">Education</a>
                                             </li>
-                                            <li>
-                                                <a href="/" class="h2ColorWhite">Services 2</a>
-                                            </li>
-                                            <li>
-                                                <a href="/" class="h2ColorWhite">Services 3</a>
-                                            </li>
-                                            <li>
-                                                <a href="/" class="h2ColorWhite">Contact 1</a>
-                                            </li>
-                                            <li>
-                                                <a href="/" class="h2ColorWhite">Contact 2</a>
-                                            </li>
-                                            <li>
-                                                <a href="/" class="h2ColorWhite">Planner</a>
-                                            </li>
+
                                         </ul>
                                     </li>
+
                                     <li>
                                         <ul>
                                             <li>
                                                 <span class="title"></span>
                                             </li>
                                             <li>
-                                                <a href="/" class="h2ColorWhite">Login</a>
+                                                <a href="/" class="h2ColorWhite">Shopping Mall</a>
                                             </li>
                                             <li>
-                                                <a href="/" class="h2ColorWhite">Register</a>
+                                                <a href="/" class="h2ColorWhite">Grooming</a>
                                             </li>
                                             <li>
-                                                <a href="/" class="h2ColorWhite">Coming Soon</a>
+                                                <a href="/" class="h2ColorWhite">Health Care</a>
                                             </li>
                                             <li>
-                                                <a href="/" class="h2ColorWhite">FAQ</a>
+                                                <a href="/" class="h2ColorWhite">Sports</a>
                                             </li>
-                                            <li>
-                                                <a href="/" class="h2ColorWhite">Confirmation</a>
-                                            </li>
-                                            <li>
-                                                <a href="/" class="h2ColorWhite">Countdown</a>
-                                            </li>
-                                            <li>
-                                                <a href="/" class="h2ColorWhite">Countdown 2</a>
-                                            </li>
-                                            <li>
-                                                <a href="/" class="h2ColorWhite">404 - Error</a>
-                                            </li>
+
                                         </ul>
                                     </li>
+
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="title"></span>
+                                            </li>
+                                            <li>
+                                                <a href="/" class="h2ColorWhite">Big Brands</a>
+                                            </li>
+                                            <li>
+                                                <a href="/" class="h2ColorWhite">Utilities</a>
+                                            </li>
+                                            <li>
+                                                <a href="/" class="h2ColorWhite">Food</a>
+                                            </li>
+                                            <li>
+                                                <a href="/" class="h2ColorWhite">Rent</a>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+
                                 </ul>
                             </li>
+
                             <li class="has-dropdown underline-from-center">
-                                <a href="#" class="h2ColorBlack">
-                                    HOW TO USE
-                                </a>
-                            </li>
-                            <li class="has-dropdown underline-from-center">
-                                <a href="#" class="h2ColorBlack">
+                                <a href="#categories" class="h2ColorBlack">
                                     CATEGORIES
                                 </a>
                             </li>
                             <li class="has-dropdown underline-from-center">
-                                <a href="#" class="h2ColorBlack">
+                                <a href="#contact" class="h2ColorBlack">
                                     CONTACT US
                                 </a>
                             </li>
@@ -161,7 +155,7 @@
         <footer style="background-color: #f4f4f4; padding: 0;" class="footer-1 bg-light">
 
             @if(Request::is('/'))
-            <div>
+            <div id="contact">
                 <div class="col-md-6 col-sm-6">
                     <div class="widget">
                         <h2 class="uppercase large h2Color text-center"><br><br><br><br><br>Contact us</h2>

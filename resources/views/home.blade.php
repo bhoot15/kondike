@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="main-container">
-    <section style="margin-top: 65px;" class="cover pt240 pb240 pt-xs-120 pb-xs-80 image-bg" id="about">
+    <section style="margin-top: 65px;" class="cover pt240 pb240 pt-xs-120 pb-xs-80 image-bg" id="home">
         <div class="background-image-holder">
             <img alt="image" class="background-image" src="../img/landing_page_background.png"/>
         </div>
@@ -55,7 +55,7 @@
             <!--end of container-->
     </section>
 
-    <section class="bg-primary cover pt240 pb240 pt-xs-120 pb-xs-80 image-bg">
+    <section id="tutorial" class="bg-primary cover pt240 pb240 pt-xs-120 pb-xs-80 image-bg">
         <div class="background-image-holder">
             <img alt="image" class="background-image" src="img/how_to.png"/>
         </div>
@@ -86,7 +86,7 @@
             <!--end of container-->
     </section>
 
-    <section class="bg-light image-bg">
+    <section id="features" class="bg-light image-bg">
         <div class="background-image-holder">
             <img alt="image" class="background-image" src="img/features_background.png"/>
         </div>
@@ -152,7 +152,7 @@
         </div>
             <!--end of container-->
     </section>
-    <section class="bg-secondary image-bg" style="background-color: #ebebeb;">
+    <section id="categories" class="bg-secondary image-bg" style="background-color: #ebebeb;">
         <div class="container">
             <div class="row">
                 <div class="col-md-4"></div>
